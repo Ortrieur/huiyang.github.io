@@ -2,9 +2,17 @@ p.sidebar {
   	font-family: Garamond, Georgia, serif;
 	color: rgb(56, 56, 56);
 	font-style: oblique;
+	font-weight: 500;
+	font-variant: normal;
 }
 h1.sidebar {
 	font-family: Garamond, Georgia, serif;
 	color: rgb(56, 56, 56);
 	font-style: oblique;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+div.sidebar {
+  	width:300px;
+  	margin:left;
 }
