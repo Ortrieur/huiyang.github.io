@@ -2,20 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Demo Project</title>
+    <title>Demo Portfolio</title>
     <meta name="viewport" content="width=device-width, intital-scale:1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css?=v0.0.2" />
+    <link rel="stylesheet" type="text/css" href="style.css?=v0.0.3" />
     <link rel="icon" type:"image/png" href="huia.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Playfair Display|Calibri">
   </head>
   <body>
+    <p>this is a font size wv test</p>
+
     <div class="sidebar">
-      <h1 class="sidebar">HUI YANG (sidebar) </h1>
-      <p class="sidebar">HOME</p>
-      <p class="sidebar">COVER LETTER</p>
-      <p class="sidebar">RESUME</p>
-      <p class="sidebar">PROJECTS</p>
-      <p class="sidebar">REFERENCES</p>
+      <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">Close</a>
+      <h2>HUI YANG (sidebar) </h2>
+      <a href="#">HOME</a>
+      <a href="#">COVER LETTER</a>
+      <a href="#"">RESUME</a>
+      <a href="#">PROJECTS</a>
+      <a href="#">REFERENCES</a>
     </div>
-    <script src="./script.js"></script>
+
+    <div id="main">
+      <button class="openbtn" onClick="openNav()">☰ Open Sidebar</button>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
