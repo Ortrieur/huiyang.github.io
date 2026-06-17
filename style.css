@@ -1,8 +1,8 @@
 body {
-	font-size: 5vw;
+	font-size: 0.5vw;
 }
 
-div.sidebar {
+.sidebar {
 	height: 100%;
   	width: 0;
   	position: fixed;
